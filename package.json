@@ -1,19 +1,25 @@
 {
-  "name": "myMiniProject",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "hailee",
-  "license": "MIT",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "webpack": "^3.7.1"
-  }
+    "name": "myproject",
+    "version": "1.0.0",
+    "description": "My project with nodejs, webpack and babel",
+    "main": "index.js",
+    "scripts": {
+        "compile": "webpack",
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "hailee",
+    "license": "MIT",
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "express": "^4.16.2",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "webpack": "^3.7.1",
+        "webpack-dev-middleware": "^1.12.0"
+    }
 }
