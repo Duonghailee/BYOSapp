@@ -1,5 +1,5 @@
 {
-    "name": "myproject",
+    "name": "my-project",
     "version": "1.0.0",
     "description": "My project with nodejs, webpack and babel",
     "main": "index.js",
